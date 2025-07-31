@@ -4,7 +4,7 @@ const API_ENDPOINT1 = 'https://vrt5rw6a10.execute-api.ap-northeast-1.amazonaws.c
 const API_ENDPOINT2 = 'https://vrt5rw6a10.execute-api.ap-northeast-1.amazonaws.com/ms_message_2';
 
 function App() {
-  const [result, setResult] = useState('結果がここに表示されます');
+  const [result, setResult] = useState('ここを編集しました');
   const [loadingButton, setLoadingButton] = useState('');
 
   const callLambda = async (endpoint, buttonId) => {
